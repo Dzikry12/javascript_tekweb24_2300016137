@@ -1,0 +1,51 @@
+/* Style dasar untuk halaman dan container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Kontrol */
+.font-size-control {
+    margin: 20px 0;
+}
+
+/* Dropdown untuk jenis font */
+.font-selector {
+    margin: 20px 0;
+}
+
+/* Mode gelap */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
